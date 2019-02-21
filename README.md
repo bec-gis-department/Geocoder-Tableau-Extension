@@ -78,7 +78,14 @@ Here are the adidtional resources we utilize from UNPKG:
 * https://unpkg.com/leaflet@latest/dist/leaflet.css
 
 
-https://unpkg.com/leaflet-control-geocoder@latest/dist/Control.Geocoder.js
+## A note from the Admin:
+
+Development is fun, I wnt you to be creative, I want you to build this the best way it can help YOU.
+
+Development is power, BY YOU FOR YOU, build your world.
+
+“JavaScript’s global scope is like a public toilet. You can’t avoid going in there, but try to limit your contact with surfaces when you do.” 
+― Dmitry Baranovskiy
 
 
 ## License
