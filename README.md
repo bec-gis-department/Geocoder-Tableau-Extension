@@ -82,7 +82,7 @@ Here are the adidtional resources we utilize from UNPKG:
 
 ## A note from the Admin:
 
-Development is fun, I wnt you to be creative, I want you to build this the best way it can help YOU.
+Development is fun, I want you to be creative, I want you to build this the best way it can help **YOU**.
 
 Development is power, BY YOU FOR YOU, build your world.
 
