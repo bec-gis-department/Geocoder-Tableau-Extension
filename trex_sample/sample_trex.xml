@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest manifest-version="0.1" xmlns="http://www.tableau.com/xml/extension_manifest">
+  <dashboard-extension id="com.tableau.extensions.blah bla.blah" extension-version="0.6.0">
+    <default-locale>en_US</default-locale>
+    <name resource-id="name"/>
+    <description>BEC Sample</description>
+    <author name="John R Lister - GIS Whizzle Shnizzle" email="imafrican@imnotexposingmyemail.coop" organization="BEC" website="https://www.tableau.com"/>
+    <min-api-version>0.8</min-api-version>
+    <source-location>
+      <url>http://localhost:8888/index.html</url>
+    </source-location>
+    <icon>some really cool icon ID... ask John for his</icon>
+    <permissions>
+      <permission>full data</permission>
+    </permissions>
+  </dashboard-extension>
+  <resources>
+    <resource id="name">
+      <text locale="en_US">BEC Sample</text>
+    </resource>
+  </resources>
+</manifest>
