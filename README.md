@@ -61,17 +61,24 @@ Structure your .TREX File like so:
   </resources>
 </manifest>
 ```
+## External Libraries & Credits
 
-## Usage
+**Web Mapping Library:**
 
-```python
-import foobar
+1) We utilize the [Leaflet ](https://leafletjs.com/) web mapping Javascript library as it successfully integrates into the Tableau Visualization without white-screening.
 
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
+2) The basemap can be definied from your MapBox Studio Account and is defined in the main index.js script ``` 'https://api.mapbox.com/styles/v1/your username /your style id/tiles/256/{z}/{x}/{y}@2x?access_token=' + the Mapbox API Token defined in the config ```
 
+3) We utilize the Mapbox geocoding functionality accessible in the config.js file, the [UNPKG](https://unpkg.com/) and their [leaflet-control-geocoder](https://github.com/perliedman/leaflet-control-geocoder) project. this allows us to add a Mapbox Geocoding capacity to the leaflet map to be used in Tableau.
+
+Here are the adidtional resources we utilize from UNPKG:
+* https://unpkg.com/leaflet-control-geocoder@latest/dist/Control.Geocoder.js
+* https://unpkg.com/leaflet@latest/dist/leaflet-src.js
+* https://unpkg.com/leaflet-control-geocoder@latest/dist/Control.Geocoder.css
+* https://unpkg.com/leaflet@latest/dist/leaflet.css
+
+
+https://unpkg.com/leaflet-control-geocoder@latest/dist/Control.Geocoder.js
 
 
 ## License
