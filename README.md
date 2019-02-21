@@ -2,7 +2,9 @@
 
 Working Repository for BEC & GVEC for work done on the Geocoding Tableau Extension.
 
-Geocode addresses within a Tableau Dashboard, and allow Dashboard Filters and Actions to interact with the map.
+Using Leaflet to power the interactive map, and UNPKG to embed a Mapbox Geocoder we can geocode addresses within a Tableau Dashboard.
+That's pretty static right? 
+SO we are using the extension API from Tableau to allow Dashboard Filters and Actions to interact with the map to cretae a super cool extension built by both BEC & GVEC.
 
 ## Administration
 
